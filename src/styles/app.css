@@ -688,8 +688,9 @@ h6 {
 }
 
 .site-logo {
+    color: #fff;
     font-size: 24px;
-    height: 800;
+    font-weight: 800;
 }
 
 .site-logo:hover {
