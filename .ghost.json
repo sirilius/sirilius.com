@@ -1,0 +1,10 @@
+{
+    "development": {
+      "apiUrl": "https://sirilius.com",
+      "contentApiKey": "9918483317a882f514f465dd9b"
+    },
+    "production": {
+      "apiUrl": "https://sirilius.com",
+      "contentApiKey": "9918483317a882f514f465dd9b"
+    }
+  }
