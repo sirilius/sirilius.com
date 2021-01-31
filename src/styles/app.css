@@ -688,7 +688,12 @@ h6 {
 }
 
 .site-logo {
-    height: 25px;
+    font-size: 24px;
+    height: 800;
+}
+
+.site-logo:hover {
+    text-decoration: none;
 }
 
 .site-mast {
