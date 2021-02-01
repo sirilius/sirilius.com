@@ -39,7 +39,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
-                                    <Link to="/"></Link><a className="site-logo" href="" rel="noopener noreferrer">{site.title}</a>
+                                    <Link to="/"></Link><a className="site-logo" href= "/" rel="noopener noreferrer">{site.title}</a>
                                 </div>
 
                                 <div className="site-mast-right">
