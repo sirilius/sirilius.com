@@ -40,13 +40,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <div className="site-mast">
                                 <div className="site-mast-left">
                                     <Link to="/"></Link><a className="site-logo" href= "/" rel="noopener noreferrer">{site.title}</a>
-                                    <nav className="site-nav">
-                                        <div className="site-nav-left">
-                                            {/* The navigation items as setup in Ghost */}
-                                            <Navigation data={site.navigation} navClass="site-nav-item" />
-                                        </div>
-                                    </nav>
                                 </div>
+                                <nav className="site-nav">
+                                    <div className="site-nav-left">
+                                        {/* The navigation items as setup in Ghost */}
+                                        <Navigation data={site.navigation} navClass="site-nav-item" />
+                                    </div>
+                                </nav>
                             </div>
                             
                         </div>
