@@ -64,14 +64,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                            &copy; <script>document.write(new Date().getFullYear());</script> Sirilius Kevin
+                                &copy; 2021 <Link to="/">{site.title}</Link>
                             </div>
                             <div className="site-foot-nav-right">
                                 <Navigation data={site.navigation} navClass="site-foot-nav-item" />
                             </div>
                         </div>
                     </footer>
-
                 </div>
             </div>
 
