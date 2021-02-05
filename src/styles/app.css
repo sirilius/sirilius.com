@@ -698,13 +698,11 @@ h6 {
 }
 
 .site-mast {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
     justify-content: space-between;
 }
 
 .site-mast-right {
-    display: inline-flex;
     align-items: center;
 }
 
